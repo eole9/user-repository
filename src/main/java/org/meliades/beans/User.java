@@ -13,6 +13,15 @@ public class User {
     private String prenom;
     private long speed;
 
+    public User() {
+    }
+
+    public User(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -30,15 +39,6 @@ public class User {
 
     public void setSpeed(long speed) {
         this.speed = speed;
-    }
-
-    public User() {
-    }
-
-    public User(String nom, String prenom, int age) {
-        this.nom = nom;
-        this.prenom = prenom;
-        this.age = age;
     }
 
     public String getId() {

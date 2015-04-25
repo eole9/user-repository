@@ -1,8 +1,8 @@
 package org.meliades;
 
-import org.meliades.app.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.meliades.app.Application;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;

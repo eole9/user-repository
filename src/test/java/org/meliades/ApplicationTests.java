@@ -1,13 +1,13 @@
 package org.meliades;
 
-import org.meliades.app.Application;
-import org.meliades.beans.User;
-import org.meliades.repository.UserRepository;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.meliades.app.Application;
+import org.meliades.beans.User;
+import org.meliades.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
